@@ -61,7 +61,7 @@ export default function HomePage() {
 function KakaoLoginButton() {
     return (
         <button className="ml-auto bg-yellow-400 text-black px-4 py-2 rounded-full font-bold cursor-pointer z-0">
-            <RiKakaoTalkFill /> 카카오로 로그인
+            <RiKakaoTalkFill className="inline align-middle" /> 카카오로 로그인
         </button>
     );
 }
